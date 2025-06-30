@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rice Type Classification</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #000;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 40px;
+        }
+
+        .navbar h1 {
+            color: white;
+            font-size: 24px;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin-left: 30px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        /* Content */
+        .result-container {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .result-container h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .result-container p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #111;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>RICE TYPE CLASSIFICATION</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="predict.html">Predict</a></li>
+        </ul>
+    </div>
+
+    <div class="result-container">
+        <h2>Results</h2>
+        <p>Based on the image given as input, the AI model has predicted that there is a high possibility for your rice is of type</p>
+        <p style="font-weight: bold; font-size: 20px;">Basmati</p>
+    </div>
+
+    <div class="footer"></div>
+
+</body>
+</html>

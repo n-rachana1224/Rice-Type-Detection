@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Rice Type Detection</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+    }
+
+    .header {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .navbar {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1em;
+      font-weight: 500;
+    }
+
+    .navbar a:hover {
+      color: limegreen;
+    }
+
+    .contact-section {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .contact-section h2 {
+      color: #2ecc71;
+      margin-bottom: 10px;
+    }
+
+    .contact-cards {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .contact-card {
+      background: #f8f8f8;
+      padding: 20px;
+      border-radius: 8px;
+      width: 250px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: left;
+    }
+
+    .contact-card h3 {
+      margin-bottom: 5px;
+      color: #444;
+    }
+
+    .contact-card p {
+      margin: 0;
+      color: #666;
+      font-size: 14px;
+    }
+
+    form {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: vertical;
+    }
+
+    .form-row {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .form-row input {
+      flex: 1;
+    }
+
+    .submit-btn {
+      background-color: #2ecc71;
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+      background-color: #27ae60;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">RICE TYPE DETECTION</div>
+
+  <!-- Navigation -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="testimonials.html">Testimonials</a>
+    <a href="contact.html">Contact</a>
+    <a href="predict.html">Predict</a>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="contact-section">
+    <h2>CONTACT US</h2>
+
+    <div class="contact-cards">
+      <div class="contact-card">
+        <h3>Our Address</h3>
+        <p>A108 Adam Street, Pune, India</p>
+      </div>
+      <div class="contact-card">
+        <h3>Email Us</h3>
+        <p>info@example.com<br>contact@example.com</p>
+      </div>
+      <div class="contact-card">
+        <h3>Call Us</h3>
+        <p>+91 55892 55488<br>+91 66782 25444</p>
+      </div>
+    </div>
+
+    <form action="#" method="POST">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+      </div>
+      <input type="text" name="subject" placeholder="Subject" required />
+      <textarea name="message" rows="5" placeholder="Message" required></textarea>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </div>
+
+</body>
+</html>
